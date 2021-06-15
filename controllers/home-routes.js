@@ -42,6 +42,10 @@ router.get("/", (req, res) => {
     });
 });
 
+router.get('/login', (req, res) => {
+    res.render('login');
+});
+
 //--- First get route for handlebars ---
 // router.get('/', (req, res) => {
 //     res.render('homepage', {
